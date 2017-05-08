@@ -5,7 +5,7 @@ vault_mysql_root_password: productionpw
 vault_users:
   - name: "{{ admin_user }}"
     password: example_password
-    salt: "generateme"
+    salt: "BSHv_aP(CXa$vRy|dY]BarVSHwDV8U`t{5|pSVL)UfhT[RzUEH+#:&6!(%Geb/hx"
 
 # Variables to accompany `group_vars/production/wordpress_sites.yml`
 # Note: the site name (`example.com`) must match up with the site name in the above file.
@@ -14,11 +14,11 @@ vault_wordpress_sites:
     env:
       db_password: example_dbpassword
       # Generate your keys here: https://roots.io/salts.html
-      auth_key: "generateme"
-      secure_auth_key: "generateme"
-      logged_in_key: "generateme"
-      nonce_key: "generateme"
-      auth_salt: "generateme"
-      secure_auth_salt: "generateme"
-      logged_in_salt: "generateme"
-      nonce_salt: "generateme"
+      auth_key: "Mr84(^iiEUKv2fjG)>-{)=E9.;CF>ysh44Y7p@X[Cjc/0lim[I);_+G=/E,C#Pv("
+      secure_auth_key: "<K7]/Tu%cvf>|_6G2_[[MW]Xj2[stitsT#pCM!YS(x]istg;$5{hz!Q44`h0@MBy"
+      logged_in_key: "y}j)2`vj6S/mNLzntn[ykzCxe)hfM?tgxa>DCMyyZm?Wuwtu]%RmH/jN/Cn}<j-n"
+      nonce_key: "Y:CBS*%7[x;oy&./Z5MX15kbz[2`(&7(wJp0c6vZx@G8dCP#Z)&-W|Jzu$-Sx3,V"
+      auth_salt: "VS349IE5P;,!O,6mU]b$Bw8s)GD(s%@y%rFUQ25(cX>+!OsTP1u@Pd+jNK{RiXJV"
+      secure_auth_salt: "}7V@Zh$0cnW,gFtGA+)DgT;,[QB,Q.nxC@IwoW6|s-V-6<sq52-1%J*kstvE3nYD"
+      logged_in_salt: "SAjVvxq7>{-l@Kg5P7_+?)d5F9X*v{g};xtbja_Y;eO(w)cvR<UtW/fS5$bzTpgT"
+      nonce_salt: "gk1e}5F3bE<Ph8`q1yBGfiW<sq,B8)9j#NeuLmle;a]JkX_TGYV,z3/ydH_xRV^B"
